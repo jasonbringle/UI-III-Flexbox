@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	margin:50px;
+		}
+
+header{
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+		}
+
+/* .nav-bar{
+			} */
+
+nav{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+		}		
+
+.logo{
+	display: flex;
+		}
+
+nav a{
+	display:flex;
+	text-decoration: none;
+	color: gray;
+	
+	
+		}
+
+
+h1 {
+	/* padding: 20px; */
+	font-size: 100px;
+	display: block;
+	text-align: center;
+		}		
+
+.button{
+	display: flex;
+	justify-content:center;
+	text-align: center;
+	width: 40%;
+		}
+
+.circle{
+	display: flex;
+	flex-direction:;
+	justify-content: flex-end;
+	align-content: ;
+		}
+
+.upper-section{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding: 20px;
+	
+}
+.top-content{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:20px 0px;
+		}
+
+.middle-img{
+	dislay:inline;
+	width:100%;
+}
+/* .features{
+	display:flex;
+		}
+
+.about{
+	display:flex;
+		} */
+
+.lower-content{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:20px 0px;
+		}
+
+
+/* .services{
+	display:flex;
+		}
+
+.product{
+	display:flex;
+		}
+
+.vison{
+	display:flex; */
+		}
+
+footer{
+	text-align:center;
+		}
