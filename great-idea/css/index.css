@@ -66,6 +66,7 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	margin:50px;
+	padding: 0px 0px 50px 0px;
 		}
 
 header{
@@ -98,16 +99,26 @@ nav a{
 
 h1 {
 	/* padding: 20px; */
-	font-size: 100px;
+	font-size: 90px;
 	display: block;
 	text-align: center;
-		}		
+		}
 
-.button{
-	display: flex;
-	justify-content:center;
+/* .upper-section header .button{
+	display:flex;
+	justify-content: center;
+		} */
+
+ .button{
+	display:flex;
+	justify-content:center; 
+	width: 50%; 
+	padding: 1%;
+	font-size: 15px;
+	background-color:white;
+	border: 1px solid black;
 	text-align: center;
-	width: 40%;
+	margin: 0 auto;
 		}
 
 .circle{
@@ -120,26 +131,28 @@ h1 {
 .upper-section{
 	display:flex;
 	flex-direction:row;
-	justify-content:space-between;
+	justify-content:space-around;
 	padding: 20px;
 	
 }
 .top-content{
 	display:flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding:20px 0px;
 		}
 
 .middle-img{
 	dislay:inline;
 	width:100%;
-}
-/* .features{
-	display:flex;
 		}
 
-.about{
+
+.features{
+	padding: 0px 10px 0px 0px;
+		}
+
+/* .about{
 	display:flex;
 		} */
 
@@ -150,19 +163,23 @@ h1 {
 	padding:20px 0px;
 		}
 
-
-/* .services{
-	display:flex;
+.services{
+	padding: 0px 10px 0px 0px;
 		}
 
 .product{
-	display:flex;
+	padding: 0px 10px 0px 0px;
 		}
 
 .vison{
-	display:flex; */
+	padding: 0px 10px 0px 0px;
 		}
 
 footer{
-	text-align:center;
+	display: flex;
+	justify-content: center;
 		}
+
+
+
+
